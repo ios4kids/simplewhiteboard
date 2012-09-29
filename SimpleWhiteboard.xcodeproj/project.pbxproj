@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B614340C1608D67800ECC3F1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B614340B1608D67800ECC3F1 /* MessageUI.framework */; };
+		B615D0CC16089E5800B970FA /* ImagesNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B615D0CB16089E5800B970FA /* ImagesNavigationViewController.m */; };
+		B615D0D01608A81D00B970FA /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B615D0CF1608A81D00B970FA /* EmailViewController.m */; };
+		B633CD5316002C7300F489DD /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B633CD5216002C7300F489DD /* ImagesTableViewController.m */; };
+		B633CD5716002CEB00F489DD /* ImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B633CD5616002CEB00F489DD /* ImagesTableViewCell.m */; };
+		B64B9B1415F2307D0029BE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B9B1315F2307D0029BE1E /* UIKit.framework */; };
+		B64B9B1615F2307D0029BE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B9B1515F2307D0029BE1E /* Foundation.framework */; };
+		B64B9B1815F2307D0029BE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B9B1715F2307D0029BE1E /* CoreGraphics.framework */; };
+		B64B9B1E15F2307D0029BE1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64B9B1C15F2307D0029BE1E /* InfoPlist.strings */; };
+		B64B9B2015F2307D0029BE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B1F15F2307D0029BE1E /* main.m */; };
+		B64B9B2415F2307D0029BE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B2315F2307D0029BE1E /* AppDelegate.m */; };
+		B64B9B2715F2307D0029BE1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64B9B2515F2307D0029BE1E /* MainStoryboard.storyboard */; };
+		B64B9B2A15F2307D0029BE1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B2915F2307D0029BE1E /* ViewController.m */; };
+		B64B9B3715F2863B0029BE1E /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B3615F2863B0029BE1E /* Marker.m */; };
+		B64B9B3E15F2868E0029BE1E /* ToolbarSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B3D15F2868E0029BE1E /* ToolbarSelector.m */; };
+		B64B9B4515F287140029BE1E /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B9B4415F287140029BE1E /* Canvas.m */; };
+		B65038D815F39B35004FE990 /* iconAM.png in Resources */ = {isa = PBXBuildFile; fileRef = B65038D715F39B35004FE990 /* iconAM.png */; };
+		B65038DB15F39BBC004FE990 /* 500.png in Resources */ = {isa = PBXBuildFile; fileRef = B65038DA15F39BBC004FE990 /* 500.png */; };
+		B65038DD15F39BDB004FE990 /* 144.png in Resources */ = {isa = PBXBuildFile; fileRef = B65038DC15F39BDB004FE990 /* 144.png */; };
+		B65E8FB415F29D5300ADF22C /* Whiteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B65E8FB315F29D5300ADF22C /* Whiteboard.m */; };
+		B65E8FBB15F2A29300ADF22C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E8FBA15F2A29300ADF22C /* QuartzCore.framework */; };
+		B68FA61215FD52010055C511 /* FilePathMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FA61115FD52010055C511 /* FilePathMethods.m */; };
+		B68FA61615FD730F0055C511 /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FA61515FD730F0055C511 /* UIImage-Extensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B614340B1608D67800ECC3F1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B615D0CA16089E5800B970FA /* ImagesNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesNavigationViewController.h; sourceTree = "<group>"; };
+		B615D0CB16089E5800B970FA /* ImagesNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesNavigationViewController.m; sourceTree = "<group>"; };
+		B615D0CE1608A81D00B970FA /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		B615D0CF1608A81D00B970FA /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		B633CD5116002C7300F489DD /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		B633CD5216002C7300F489DD /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		B633CD5516002CEB00F489DD /* ImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewCell.h; sourceTree = "<group>"; };
+		B633CD5616002CEB00F489DD /* ImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewCell.m; sourceTree = "<group>"; };
+		B64B9B0F15F2307D0029BE1E /* SimpleWhiteboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWhiteboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64B9B1315F2307D0029BE1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B64B9B1515F2307D0029BE1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B64B9B1715F2307D0029BE1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B64B9B1B15F2307D0029BE1E /* SimpleWhiteboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWhiteboard-Info.plist"; sourceTree = "<group>"; };
+		B64B9B1D15F2307D0029BE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B64B9B1F15F2307D0029BE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64B9B2115F2307D0029BE1E /* SimpleWhiteboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleWhiteboard-Prefix.pch"; sourceTree = "<group>"; };
+		B64B9B2215F2307D0029BE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B64B9B2315F2307D0029BE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B64B9B2615F2307D0029BE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B64B9B2815F2307D0029BE1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B64B9B2915F2307D0029BE1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B64B9B3515F2863B0029BE1E /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		B64B9B3615F2863B0029BE1E /* Marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marker.m; sourceTree = "<group>"; };
+		B64B9B3C15F2868E0029BE1E /* ToolbarSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolbarSelector.h; sourceTree = "<group>"; };
+		B64B9B3D15F2868E0029BE1E /* ToolbarSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolbarSelector.m; sourceTree = "<group>"; };
+		B64B9B4315F287140029BE1E /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		B64B9B4415F287140029BE1E /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		B65038D715F39B35004FE990 /* iconAM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconAM.png; sourceTree = "<group>"; };
+		B65038DA15F39BBC004FE990 /* 500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500.png; sourceTree = "<group>"; };
+		B65038DC15F39BDB004FE990 /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144.png; sourceTree = "<group>"; };
+		B65E8FB215F29D5300ADF22C /* Whiteboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whiteboard.h; sourceTree = "<group>"; };
+		B65E8FB315F29D5300ADF22C /* Whiteboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whiteboard.m; sourceTree = "<group>"; };
+		B65E8FBA15F2A29300ADF22C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B68FA61015FD52010055C511 /* FilePathMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePathMethods.h; sourceTree = "<group>"; };
+		B68FA61115FD52010055C511 /* FilePathMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePathMethods.m; sourceTree = "<group>"; };
+		B68FA61415FD730F0055C511 /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		B68FA61515FD730F0055C511 /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64B9B0C15F2307D0029BE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B614340C1608D67800ECC3F1 /* MessageUI.framework in Frameworks */,
+				B65E8FBB15F2A29300ADF22C /* QuartzCore.framework in Frameworks */,
+				B64B9B1415F2307D0029BE1E /* UIKit.framework in Frameworks */,
+				B64B9B1615F2307D0029BE1E /* Foundation.framework in Frameworks */,
+				B64B9B1815F2307D0029BE1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64B9B0415F2307D0029BE1E = {
+			isa = PBXGroup;
+			children = (
+				B65038DC15F39BDB004FE990 /* 144.png */,
+				B65038DA15F39BBC004FE990 /* 500.png */,
+				B65038D715F39B35004FE990 /* iconAM.png */,
+				B64B9B1915F2307D0029BE1E /* SimpleWhiteboard */,
+				B64B9B1215F2307D0029BE1E /* Frameworks */,
+				B64B9B1015F2307D0029BE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64B9B1015F2307D0029BE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64B9B0F15F2307D0029BE1E /* SimpleWhiteboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64B9B1215F2307D0029BE1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B614340B1608D67800ECC3F1 /* MessageUI.framework */,
+				B65E8FBA15F2A29300ADF22C /* QuartzCore.framework */,
+				B64B9B1315F2307D0029BE1E /* UIKit.framework */,
+				B64B9B1515F2307D0029BE1E /* Foundation.framework */,
+				B64B9B1715F2307D0029BE1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B64B9B1915F2307D0029BE1E /* SimpleWhiteboard */ = {
+			isa = PBXGroup;
+			children = (
+				B64B9B4315F287140029BE1E /* Canvas.h */,
+				B64B9B4415F287140029BE1E /* Canvas.m */,
+				B64B9B3515F2863B0029BE1E /* Marker.h */,
+				B64B9B3615F2863B0029BE1E /* Marker.m */,
+				B64B9B3C15F2868E0029BE1E /* ToolbarSelector.h */,
+				B64B9B3D15F2868E0029BE1E /* ToolbarSelector.m */,
+				B64B9B2215F2307D0029BE1E /* AppDelegate.h */,
+				B64B9B2315F2307D0029BE1E /* AppDelegate.m */,
+				B64B9B2515F2307D0029BE1E /* MainStoryboard.storyboard */,
+				B64B9B2815F2307D0029BE1E /* ViewController.h */,
+				B64B9B2915F2307D0029BE1E /* ViewController.m */,
+				B64B9B1A15F2307D0029BE1E /* Supporting Files */,
+				B65E8FB215F29D5300ADF22C /* Whiteboard.h */,
+				B65E8FB315F29D5300ADF22C /* Whiteboard.m */,
+				B633CD5116002C7300F489DD /* ImagesTableViewController.h */,
+				B633CD5216002C7300F489DD /* ImagesTableViewController.m */,
+				B633CD5516002CEB00F489DD /* ImagesTableViewCell.h */,
+				B633CD5616002CEB00F489DD /* ImagesTableViewCell.m */,
+				B615D0CA16089E5800B970FA /* ImagesNavigationViewController.h */,
+				B615D0CB16089E5800B970FA /* ImagesNavigationViewController.m */,
+				B615D0CE1608A81D00B970FA /* EmailViewController.h */,
+				B615D0CF1608A81D00B970FA /* EmailViewController.m */,
+			);
+			path = SimpleWhiteboard;
+			sourceTree = "<group>";
+		};
+		B64B9B1A15F2307D0029BE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64B9B1B15F2307D0029BE1E /* SimpleWhiteboard-Info.plist */,
+				B64B9B1C15F2307D0029BE1E /* InfoPlist.strings */,
+				B64B9B1F15F2307D0029BE1E /* main.m */,
+				B64B9B2115F2307D0029BE1E /* SimpleWhiteboard-Prefix.pch */,
+				B68FA61015FD52010055C511 /* FilePathMethods.h */,
+				B68FA61115FD52010055C511 /* FilePathMethods.m */,
+				B68FA61415FD730F0055C511 /* UIImage-Extensions.h */,
+				B68FA61515FD730F0055C511 /* UIImage-Extensions.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64B9B0E15F2307D0029BE1E /* SimpleWhiteboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64B9B2D15F2307D0029BE1E /* Build configuration list for PBXNativeTarget "SimpleWhiteboard" */;
+			buildPhases = (
+				B64B9B0B15F2307D0029BE1E /* Sources */,
+				B64B9B0C15F2307D0029BE1E /* Frameworks */,
+				B64B9B0D15F2307D0029BE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWhiteboard;
+			productName = SimpleWhiteboard;
+			productReference = B64B9B0F15F2307D0029BE1E /* SimpleWhiteboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64B9B0615F2307D0029BE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Alberto Morales";
+			};
+			buildConfigurationList = B64B9B0915F2307D0029BE1E /* Build configuration list for PBXProject "SimpleWhiteboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B64B9B0415F2307D0029BE1E;
+			productRefGroup = B64B9B1015F2307D0029BE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64B9B0E15F2307D0029BE1E /* SimpleWhiteboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64B9B0D15F2307D0029BE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B9B1E15F2307D0029BE1E /* InfoPlist.strings in Resources */,
+				B64B9B2715F2307D0029BE1E /* MainStoryboard.storyboard in Resources */,
+				B65038D815F39B35004FE990 /* iconAM.png in Resources */,
+				B65038DB15F39BBC004FE990 /* 500.png in Resources */,
+				B65038DD15F39BDB004FE990 /* 144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64B9B0B15F2307D0029BE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B9B2015F2307D0029BE1E /* main.m in Sources */,
+				B64B9B2415F2307D0029BE1E /* AppDelegate.m in Sources */,
+				B64B9B2A15F2307D0029BE1E /* ViewController.m in Sources */,
+				B64B9B3715F2863B0029BE1E /* Marker.m in Sources */,
+				B64B9B3E15F2868E0029BE1E /* ToolbarSelector.m in Sources */,
+				B64B9B4515F287140029BE1E /* Canvas.m in Sources */,
+				B65E8FB415F29D5300ADF22C /* Whiteboard.m in Sources */,
+				B68FA61215FD52010055C511 /* FilePathMethods.m in Sources */,
+				B68FA61615FD730F0055C511 /* UIImage-Extensions.m in Sources */,
+				B633CD5316002C7300F489DD /* ImagesTableViewController.m in Sources */,
+				B633CD5716002CEB00F489DD /* ImagesTableViewCell.m in Sources */,
+				B615D0CC16089E5800B970FA /* ImagesNavigationViewController.m in Sources */,
+				B615D0D01608A81D00B970FA /* EmailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B64B9B1C15F2307D0029BE1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B9B1D15F2307D0029BE1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B64B9B2515F2307D0029BE1E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64B9B2615F2307D0029BE1E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64B9B2B15F2307D0029BE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B64B9B2C15F2307D0029BE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64B9B2E15F2307D0029BE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWhiteboard/SimpleWhiteboard-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWhiteboard/SimpleWhiteboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B64B9B2F15F2307D0029BE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWhiteboard/SimpleWhiteboard-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWhiteboard/SimpleWhiteboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64B9B0915F2307D0029BE1E /* Build configuration list for PBXProject "SimpleWhiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64B9B2B15F2307D0029BE1E /* Debug */,
+				B64B9B2C15F2307D0029BE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64B9B2D15F2307D0029BE1E /* Build configuration list for PBXNativeTarget "SimpleWhiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64B9B2E15F2307D0029BE1E /* Debug */,
+				B64B9B2F15F2307D0029BE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64B9B0615F2307D0029BE1E /* Project object */;
+}
